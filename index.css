@@ -1,0 +1,81 @@
+body{
+    background-color: whitesmoke;
+}
+#tform{
+    height: 100px;
+    font-size: 100px;
+    width: 1800px;
+    text-align: center;            
+}
+
+#search{
+    width: 1000px;
+}
+
+#하단{
+    font-size: 20px;
+    color: black;
+    background-color: wheat;
+    border-style: solid;
+    width: 1800px;
+    height: 100px;
+}
+
+#기업{
+    font-size: 50px;
+    text-align: justify;
+    color: saddlebrown;
+}
+
+ul{
+    background-color: olive;
+    border:1px solid black;
+}
+ul li{
+    display: inline-block;
+    width: 100px;            
+}
+a{
+    text-decoration: none;
+    color: black;
+    width: 100px;     
+}
+
+@keyframes tcolor{
+0% { color : black;} 
+25% { color : red;} 
+50% { color : green;}
+75% { color : black;}  
+100% { color : blue;} 
+}
+
+#tform {
+animation-name : tcolor;	
+animation-duration : 3s; 							
+animation-iteration-count : infinite; 
+}
+
+@keyframes 기업 {
+0%{font-size : 500%;}
+50%{font-size : 300%;}
+100%{font-size : 100%;}
+}
+
+#bomb{
+animation-name : 기업;	
+animation-duration : 3s;
+animation-iteration-count : infinite; 							 
+}
+input{
+width: 1850px;
+height: 25px;
+font-size: 20px;
+}
+
+h4{
+font-size: 30px;
+}
+
+body{
+background-color: blanchedalmond;
+}
